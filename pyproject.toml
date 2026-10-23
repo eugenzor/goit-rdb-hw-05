@@ -1,0 +1,19 @@
+[project]
+name = "goit-rdb-hw-05"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "pandas>=3.0.6",
+    "pgserver>=0.1.4",
+    "psycopg2-binary>=2.9.13",
+    "kagglehub>=1.0.2",
+    "sqlalchemy>=2.1.4",
+    "sqlparse>=0.6.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.0",
+]
